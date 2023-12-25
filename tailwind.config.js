@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         'custom-gray': '#f5f5f5',
         'cursom-roxo':'#6046b6',
+        'grayRelatos': '#777777',
       },
       fontSize:{
         'px58':'58px',

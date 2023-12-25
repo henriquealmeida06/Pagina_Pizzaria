@@ -5,7 +5,7 @@ function Ambiente(){
     
     
     return(
-        <div  className="h-screen mt-80  overflow-hidden  bg-custom-gray">
+        <div  className="h-screen mt-80  overflow-hidden ">
             <div className="w-screen h-px360 overflow-hidden bg-gray-800 flex justify-center items-center ">
                 <div className="bg-fixed bg-parallaxAmbiente bg-cover bg-opacity-60 w-screen h-screen">
 

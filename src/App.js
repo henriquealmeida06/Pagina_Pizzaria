@@ -6,6 +6,7 @@ import Ambiente from './pages/Ambiente';
 import EntrarContato from './pages/EntrarContrato';
 import Relatos from './pages/Relatos';
 
+
 function App() {
   return (
     <div className="p-0 m-0 bg-custom-gray h-screen">

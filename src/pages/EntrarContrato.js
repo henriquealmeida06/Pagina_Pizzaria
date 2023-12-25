@@ -2,7 +2,7 @@
 
 function EntrarContato(){
     return(
-        <div className="h-screen  overflow-hidden bg-gray-800 pb-40 flex justify-center ">
+        <div className="h-screen -mt-24 overflow-hidden bg-gray-800 pb-40 flex justify-center ">
             <div className="bg-fixed bg-parallaxContato opacity-60 w-screen h-screen bg-cover">
                 
             </div>
@@ -14,7 +14,7 @@ function EntrarContato(){
                 <div className="p-5  mt-3 border-t-4 border-purple-600">
 
                 </div>
-                <p className='text-lg font-light text-white'>Prove algumas das melhores saladas da PizzaHouse!</p>
+                <p className='text-lg font-normal text-white'>Prove algumas das melhores saladas da PizzaHouse!</p>
             </div>
             <div className='py-8 px-16 bg-yellow-300 absolute ml-px580 mt-px320 cursor-pointer hover:bg-green-400 hover:text-white'>
                 <p className='font-black tracking-widest '>ENTRAR EM CONTATO</p>
