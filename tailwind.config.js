@@ -7,16 +7,20 @@ module.exports = {
         'custom-gray': '#f5f5f5',
         'cursom-roxo':'#6046b6',
         'grayRelatos': '#777777',
+        'grayFormulario':'#e1e1e1',
       },
       fontSize:{
         'px58':'58px',
       },
+      
       width:{
         'px415':'410px',
         'px600':'140vh',
         'px360':'360px',
         'px430':'430px',
         'px700':'210.4vh',
+        'px500':'182vh',
+        'vh200':'157.5vh'
       },
       height:{
         'px360':'310px',
