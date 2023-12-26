@@ -1,8 +1,14 @@
+import BlocoReserva from "../components/BlocoReserva";
+import { HiOutlineShoppingBag } from "react-icons/hi2";
+import { IoMapOutline } from "react-icons/io5";
+import { IoWifiSharp } from "react-icons/io5";
+import { BiLike } from "react-icons/bi";
+
 function Reserva(){
     return(
-        <div className="h-screen mt-14 flex flex-col justify-start items-center">
+        <div className="mt-14 flex flex-col justify-start items-center ">
             <h1 className="text-6xl text-center font-Asfalto mb-14 tracking-wider">RESERVE SUA MESA</h1>
-            <div className=" shadow-xl w-px500 p-12 ">
+            <div className=" shadow-xl w-px500 p-12 mb-16">
             <div className="flex gap-6 justify-center items-center">
                 <input className="border  outline-none text-gray-500 border-grayFormulario placeholder:text-gray-500 py-4 px-6 w-80" placeholder="Seu nome" type="text"/>
                 <input className="border outline-none text-gray-500 border-grayFormulario placeholder:text-gray-500 py-4 px-6 w-80" placeholder="Seu e-mail" type="text"/>
@@ -22,7 +28,7 @@ function Reserva(){
                
             </div>
             <div className="flex mt-8 gap-20">
-            <div className='py-8 px-6 h-20 w-64 bg-yellow-300  ml-8 flex justify-center items-center   cursor-pointer hover:bg-green-400 hover:text-white'>
+            <div className='py-8 px-6 h-20 w-64 bg-yellow-300  ml-8 flex justify-center items-center cursor-pointer hover:bg-green-400 hover:text-white'>
                 <p className='font-black tracking-widest '>ENVIAR MENSAGEM</p>
 
             </div>
@@ -34,6 +40,13 @@ function Reserva(){
             
             </div>
             </div>
+            <div className="flex gap-3">
+            <BlocoReserva icone={<HiOutlineShoppingBag />} titulo="Entrega grátis" texto="Se você pedir mais de 3 pizzas, teremos prazer em entregá-las gratuitamente."/>
+            <BlocoReserva icone={<IoMapOutline />} titulo="Localização Conveniente" texto="Nossa pizzaria fica no centro da cidade e é de fácil acesso mesmo nos finais de semana."/>
+            <BlocoReserva icone={<IoWifiSharp />} titulo="Wifi grátis" texto="Disponibilizamos Wi-Fi gratuito para todos os clientes e visitantes da nossa pizzaria."/>
+            <BlocoReserva icone={<BiLike />} titulo="Melhor serviço" texto="O cliente é nossa prioridade número 1, pois oferecemos atendimento ao cliente de alto nível."/>
+            </div>
+
             
 
         </div>

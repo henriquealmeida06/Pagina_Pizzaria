@@ -6,6 +6,7 @@ import Ambiente from './pages/Ambiente';
 import EntrarContato from './pages/EntrarContrato';
 import Relatos from './pages/Relatos';
 import Reserva from './pages/Reserva';
+import Cabecalho from './pages/Cabecalho';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <EntrarContato/>
       <Relatos/>
       <Reserva/>
+      <Cabecalho/>
       
       
       

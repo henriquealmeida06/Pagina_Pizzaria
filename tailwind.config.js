@@ -8,6 +8,10 @@ module.exports = {
         'cursom-roxo':'#6046b6',
         'grayRelatos': '#777777',
         'grayFormulario':'#e1e1e1',
+        'grayCabecalho':'#38393b',
+        'grayEscuro':'#868789',
+        'grayInput':'#565758',
+        'grayFundo':'#585a5c',
       },
       fontSize:{
         'px58':'58px',
@@ -24,6 +28,7 @@ module.exports = {
       },
       height:{
         'px360':'310px',
+        
       },
       borderWidth:{
         'px15':'13px',
@@ -31,6 +36,7 @@ module.exports = {
       height:{
         'px535':'535px',
         'px360':'360px',
+        'px350':'350px',
       },
       fontFamily:{
         'roboto1':'Roboto',
