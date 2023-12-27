@@ -13,21 +13,21 @@ function Cabecalho(){
                 <div className="">
                 <h1 className="font-bold tracking-wider text-2xl mb-7 text-white">O que nós oferecemos</h1>
                 <ul className=" w-72 font-normal gap-2 grid grid-cols-2 text-grayFormulario">
-                    <li className="">Pizzas</li>
-                    <li>Bebidas</li>
-                    <li>Hambúrger</li>
-                    <li>Frutos do mar</li>
-                    <li>Saladas</li>
+                    <li className='cursor-pointer transition duration-200 hover:text-yellow-300'>Pizzas</li>
+                    <li className='cursor-pointer transition duration-200 hover:text-yellow-300'>Bebidas</li>
+                    <li className='cursor-pointer transition duration-200 hover:text-yellow-300'>Hambúrger</li>
+                    <li className='cursor-pointer transition duration-200 hover:text-yellow-300'>Frutos do mar</li>
+                    <li className='cursor-pointer transition duration-200 hover:text-yellow-300'>Saladas</li>
                     
                 </ul>
                 </div>
                 <div className=" ml-8">
                 <h1 className="font-bold tracking-wider text-2xl mb-7 text-white">Informação</h1>
                 <ul className=" w-72 font-normal gap-2 grid grid-cols-2 text-grayFormulario">
-                    <li>Sobre nós</li>
-                    <li>Nosso cardápio</li>
-                    <li>Últimas notícias</li>
-                    <li>Contate-nos</li>
+                    <li className='cursor-pointer transition duration-200 hover:text-yellow-300'>Sobre nós</li>
+                    <li className='cursor-pointer transition duration-200 hover:text-yellow-300'>Nosso cardápio</li>
+                    <li className='cursor-pointer transition duration-200 hover:text-yellow-300'>Últimas notícias</li>
+                    <li className='cursor-pointer transition duration-200 hover:text-yellow-300'>Contate-nos</li>
                     
                     
                 </ul>
@@ -52,20 +52,20 @@ function Cabecalho(){
                     <div className='text-white ml-10 flex justify-center items-end gap-3'>
                     <span className='text-2xl bg-grayFundo px-1 py-4  h-8  flex justify-center items-center 
                     text-center m-0 text-white '><MdLocalPhone /></span>
-                    <p className='text-xl'>+55 (81) 99739-5011</p>
+                    <p className='text-xl transition duration-200 hover:text-yellow-300 cursor-pointer'>+55 (81) 99739-5011</p>
                     <div className='flex gap-3 ml-10'>
                         <span className='text-2xl bg-grayFundo px-1 py-4  h-8  flex justify-center items-center 
-                    text-center m-0 text-white '><IoMailOutline /></span>
-                        <p className='text-xl'>pizzahouse@gmail.com.br</p>
+                    text-center m-0 text-white cursor-pointer'><IoMailOutline /></span>
+                        <p className='text-xl transition duration-200 hover:text-yellow-300 cursor-pointer'>pizzahouse@gmail.com.br</p>
                     <div className='flex gap-3 ml-10'>
                     <span className='text-2xl bg-grayFundo px-1 py-4  h-8  flex justify-center items-center 
-                    text-center m-0 text-white '><FaFacebookF /></span>
+                    text-center m-0 text-white cursor-pointer  hover:bg-purple-900'><FaFacebookF /></span>
                     <span className='text-2xl bg-grayFundo px-1 py-4  h-8  flex justify-center items-center 
-                    text-center m-0 text-white '><FaTwitter /></span>
+                    text-center m-0 text-white cursor-pointer hover:bg-purple-900'><FaTwitter /></span>
                     <span className='text-2xl bg-grayFundo px-1 py-4  h-8  flex justify-center items-center 
-                    text-center m-0 text-white '><TiSocialInstagram /></span>
+                    text-center m-0 text-white cursor-pointer  hover:bg-purple-900'><TiSocialInstagram /></span>
                     <span className='text-2xl bg-grayFundo px-1 py-4  h-8  flex justify-center items-center 
-                    text-center m-0 text-white '><FaGooglePlusG /></span>
+                    text-center m-0 text-white  cursor-pointer hover:bg-purple-900'><FaGooglePlusG /></span>
 
                     </div>
                     </div>

@@ -1,6 +1,6 @@
 function BlocoRelatos({relato, nome, funcao}){
     return(
-        <div>
+        <div className="cursor-pointer">
         <div className="w-px360 h-64 bg-white shadow-xl text-center flex justify-center items-center p-6 rounded-xl ">
             <p className="text-grayRelatos font-roboto1">{relato}</p>
 
